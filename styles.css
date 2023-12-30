@@ -23,6 +23,7 @@ h2 {
 h3 {
   color: white;
 }
+
 .business-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
