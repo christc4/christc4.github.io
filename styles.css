@@ -8,6 +8,21 @@ body {
     color: white;
 }
 
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
 .business-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
