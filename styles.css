@@ -33,6 +33,6 @@ body {
 }
 
 .square:hover {
-    background-color: #0056b3;
+    background-color: #161b22;
     transform: scale(1.05);
 }
