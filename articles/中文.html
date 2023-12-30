@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+
+<input type="text" id="searchInput" placeholder="Search">
+
+<script>
+  document.getElementById('searchInput').addEventListener('input', function() {
+    var searchTerm = this.value.toLowerCase();
+    var h2Elements = document.querySelectorAll('h2 ruby rt');
+
+    h2Elements.forEach(function(element) {
+      var h2Text = element.textContent.toLowerCase();
+      var h2Parent = element.closest('h2');
+
+      if (h2Text.includes(searchTerm)) {
+        h2Parent.classList.add('highlight');
+      } else {
+        h2Parent.classList.remove('highlight');
+      }
+    });
+  });
+</script>
+
 <h2><ruby>矮<rt>ǎi</rt></ruby></h2>
 <div class="image-container">
   <img src="../str/矮.gif" width="50" height="50"/>
