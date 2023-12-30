@@ -59,3 +59,8 @@ th, td {
 th {
     background-color: #f6f8fa;
 }
+
+
+  .image-container {
+    display: flex;
+  }
