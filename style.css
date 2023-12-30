@@ -4,7 +4,7 @@ body {
     color: #333;
     background-color: #fff;
     margin: 60px;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .container {
@@ -29,12 +29,12 @@ pre {
     padding: 20px;
     border-radius: 10px;
     overflow: auto;
-    font-size: 23px;
+    font-size: 26px;
 }
 
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 23px;
+    font-size: 26px;
     color: #333;
 }
 
