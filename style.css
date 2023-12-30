@@ -4,13 +4,17 @@ body {
     line-height: 1.6;
     color: #ffffff;
     background-color: #0D1017;
-    margin: 60px auto; /* Centering using auto margin */
+    margin: 0;
     font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto; /* Centering the container */
 }
 
 h1, h2, h3 {
