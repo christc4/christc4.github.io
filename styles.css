@@ -5,21 +5,14 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #0D1017;
+    color: white;
 }
 
-p1 {
+p {
   color: white;
 }
 
-h1 {
-  color: white;
-}
-
-h2 {
-  color: white;
-}
-
-h3 {
+h1, h2, h3 {
   color: white;
 }
 
