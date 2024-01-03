@@ -57,7 +57,7 @@ h1, h2, h3 {
     padding: 20px;
     background-color: #161b22;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .square {
