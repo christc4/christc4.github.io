@@ -27,6 +27,7 @@ h1, h2, h3 {
     background-color: #0D1017;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    display: flex;
 }
 
 .square {
@@ -56,6 +57,7 @@ h1, h2, h3 {
     background-color: #161b22;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    display: flex;
 }
 
 .square {
