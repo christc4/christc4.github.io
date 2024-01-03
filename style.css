@@ -1,4 +1,3 @@
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
@@ -9,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: scale(2.);
     justify-content: center;
     min-height: 100vh; /* Ensure the body takes at least the full viewport height */
 }
@@ -59,3 +59,54 @@ th {
   .image-container {
     display: flex;
   }
+
+   /* Style for the label */
+        #toggle-label {
+            text-decoration: underline;
+            cursor: pointer;
+            color: white;
+            position: relative;
+        }
+
+        /* Style for the tooltip */
+        #toggle-label:hover::before {
+            content: "As recognised by the Eastern Orthodox Church";
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #565b66;
+            padding: 5px;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        /* Style for the hidden checkbox */
+        #toggle-checkbox {
+            display: none;
+        }
+
+        /* Style for the collapsible list */
+        #saints-list {
+            display: none;
+        }
+
+        /* Show the list when the checkbox is checked */
+        #toggle-checkbox:checked + #saints-list {
+            display: block;
+        }
+
+  /* Style to hide the default arrow indicator for details element */
+    details {
+      cursor: pointer;
+    }
+
+    summary {
+      outline: none; /* Remove the default focus outline */
+    }
+
+    /* Style for the content inside the details element */
+    details > div {
+      margin-left: 20px; /* Adjust the margin as needed */
+    }
