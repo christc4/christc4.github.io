@@ -49,6 +49,17 @@ h1, h2, h3 {
     transform: scale(1.05);
 }
 
+.business-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+    background-color: #161b22;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
 .square {
     display: flex;
     justify-content: center;
