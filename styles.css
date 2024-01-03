@@ -58,7 +58,6 @@ h1, h2, h3 {
 }
 
 .square {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
