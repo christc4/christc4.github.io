@@ -1,0 +1,39 @@
+/* Add these styles for the Completed section */
+.completed .row {
+    display: flex;
+    align-items: center;
+}
+
+.completed .row img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: transform 0.2s;
+}
+
+.completed .row:hover img {
+    transform: scale(1.1);
+}
+
+.completed .caption,
+.completed .rating,
+.completed .notes {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.completed .rating {
+    font-weight: bold;
+    color: #4CAF50; /* Green color for completed anime rating */
+}
+
+.completed .notes {
+    flex: 1;
+    color: #888; /* Light gray color for notes */
+}
+
+.completed .notes:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
