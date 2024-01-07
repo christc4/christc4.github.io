@@ -124,30 +124,25 @@ h1, h2, h3 {
 }
 
 [data-theme="isekai"]:before {
-  background-color: #161b22;
   color: white;
   content: "異世界";
 }
 
 [data-theme="reincarnation"]:before {
-  background-color: #dA76B4;
   color: white;
   content: "再生";
 }
 
 
 .action {
-    background-color: #E44D26;
     color: white;
 }
 
 .arts {
-    background-color: #d70e0e;
     color: white;
 }
 
 .kids {
-    background-color: #d3af37;
     color: white;
 }
 
