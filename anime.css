@@ -129,6 +129,11 @@ h1, h2, h3 {
   color: white;
 }
 
+[data-theme="reincarnation"]:before {
+  content: "再生";
+  background-color: #dA76B4;
+  color: white;
+}
 
 
 .action {
