@@ -121,6 +121,7 @@ h1, h2, h3 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: #bbb;
 }
 
 [data-theme="isekai"]:before {
