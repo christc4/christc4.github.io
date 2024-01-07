@@ -94,7 +94,7 @@ h1, h2, h3 {
 
 .completed .rating {
     font-weight: bold;
-    color: #4CAF50; /* Green color for completed anime rating */
+    color: white /* Green color for completed anime rating */
 }
 
 .completed .notes {
