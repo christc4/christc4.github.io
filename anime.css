@@ -124,7 +124,7 @@ h1, h2, h3 {
 }
 
 [data-theme="isekai"]:before {
-  content: "Isekai";
+  content: "異世界";
   background-color: #9A76B4;
   color: white;
 }
@@ -145,7 +145,6 @@ h1, h2, h3 {
     background-color: #d3af37;
     color: white;
 }
-
 
 .badge:hover {
     background-color: #333; /* Darken the background on hover */
