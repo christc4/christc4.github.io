@@ -134,18 +134,11 @@ h1, h2, h3 {
   content: "再生";
 }
 
-
-.action {
-    color: white;
+[data-theme="art"]:before {
+  color: white;
+  content: "花";
 }
 
-.arts {
-    color: white;
-}
-
-.kids {
-    color: white;
-}
 
 .badge:hover {
     background-color: #333; /* Darken the background on hover */
