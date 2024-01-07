@@ -121,7 +121,6 @@ h1, h2, h3 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    color: #bbb;
 }
 
 [data-theme="isekai"]:before {
@@ -131,9 +130,9 @@ h1, h2, h3 {
 }
 
 [data-theme="reincarnation"]:before {
-  content: "再生";
   background-color: #dA76B4;
   color: white;
+  content: "再生";
 }
 
 
