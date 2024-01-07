@@ -123,6 +123,14 @@ h1, h2, h3 {
     transition: background-color 0.3s;
 }
 
+[data-theme="isekai"]:before {
+  content: "Isekai";
+  background-color: #9A76B4;
+  color: white;
+}
+
+
+
 .action {
     background-color: #E44D26;
     color: white;
@@ -138,10 +146,6 @@ h1, h2, h3 {
     color: white;
 }
 
-.isekai {
-    background-color: #34B7F1;
-    color: white;
-}
 
 .badge:hover {
     background-color: #333; /* Darken the background on hover */
