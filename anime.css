@@ -109,7 +109,6 @@ h1, h2, h3 {
 
 .badge-container {
     display: flex;
-    flex-direction: column; /* Stack badges vertically */
 }
 
 .badge {
