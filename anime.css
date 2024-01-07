@@ -124,9 +124,9 @@ h1, h2, h3 {
 }
 
 [data-theme="isekai"]:before {
-  content: "異世界";
   background-color: #9A76B4;
   color: white;
+  content: "異世界";
 }
 
 [data-theme="reincarnation"]:before {
