@@ -64,7 +64,7 @@ h1, h2, h3 {
 }
 
 .planning .row img {
-    border: 2px solid #3498db; /* Blue border for planning anime */
+    border: 2px solid red; /* Blue border for planning anime */
 }
 
 /* Apply the specific styles for the Completed section */
