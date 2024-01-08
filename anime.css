@@ -68,11 +68,6 @@ h1, h2, h3 {
     border: 2px solid red; /* Blue border for planning anime */
 }
 
-/* Apply the specific styles for the Completed section */
-
-
-
-
 .completed .row:hover img,
 .watching .row:hover img,
 .planning .row:hover img{
