@@ -69,10 +69,7 @@ h1, h2, h3 {
 }
 
 /* Apply the specific styles for the Completed section */
-.completed .row {
-    display: flex;
-    align-items: center;
-}
+
 
 
 
