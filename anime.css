@@ -84,7 +84,8 @@ h1, h2, h3 {
 
 
 .completed .row:hover img,
-.watching .row:hover img {
+.watching .row:hover img,
+.planning .row:hover img{
     transform: scale(1.1);
     /* Add any other styles or rules you want for the hover effect */
 }
