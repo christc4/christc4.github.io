@@ -87,9 +87,14 @@ h1, h2, h3 {
     transition: transform 0.2s;
 }
 
-.completed .row:hover img {
+
+.completed .row:hover img,
+.watching .row:hover img {
     transform: scale(1.1);
+    /* Add any other styles or rules you want for the hover effect */
 }
+
+
 
 .completed .caption,
 .completed .rating,
