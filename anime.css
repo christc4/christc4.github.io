@@ -63,6 +63,12 @@ h1, h2, h3 {
     border: 2px solid #FFD700; /* Gold border for watching anime */
 }
 
+
+.watching .row:hover img {
+    transform: scale(1.1);
+}
+
+
 .planning .row img {
     border: 2px solid red; /* Blue border for planning anime */
 }
