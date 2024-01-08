@@ -74,12 +74,6 @@ h1, h2, h3 {
     align-items: center;
 }
 
-.completed .row img {
-    width: 100px;
-    height: 150px;
-    border-radius: 5px;
-    margin-right: 15px;
-}
 
 
 .completed .row:hover img,
