@@ -64,9 +64,6 @@ h1, h2, h3 {
 }
 
 
-.watching .row:hover img {
-    transform: scale(1.1);
-}
 
 
 .planning .row img {
