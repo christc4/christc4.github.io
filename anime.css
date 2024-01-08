@@ -55,10 +55,13 @@ h1, h2, h3 {
 }
 
 /* Apply the general styles to each section */
-.completed,watching .row img {
+.completed .row img {
     border: 2px solid #4CAF50; /* Green border for completed anime */
 }
 
+.watching .row img {
+    border: 2px solid #FFD700; /* Gold border for watching anime */
+}
 
 
 .watching .row:hover img {
